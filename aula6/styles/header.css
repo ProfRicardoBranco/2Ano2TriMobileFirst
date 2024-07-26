@@ -29,29 +29,29 @@
     display: none;
     position: absolute;
     top: 100%;
-    width: 60vw;
+    width: 60vw;/*AULA 5*/
   }
   
 
 .container__botao:checked ~ .lista-menu {
     display: block;
 }
-.lista-menu__titulo,
-.lista-menu__item {
-  padding: 1em;
-  background-color: var(--branco);
+.lista-menu__titulo,/*AULA 5*/
+.lista-menu__item {/*AULA 5*/
+  padding: 1em;/*AULA 5*/
+  background-color: var(--branco);/*AULA 5*/
 }
-.lista-menu__titulo {
-    color: var(--laranja);
-    font-weight: 700;
+.lista-menu__titulo {/*AULA 5*/
+    color: var(--laranja);/*AULA 5*/
+    font-weight: 700;/*AULA 6*/
   }
-  .lista-menu__link {
-    background: var(--azul-degrade);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-transform: uppercase;
+  .lista-menu__link {/*AULA 5*/
+    background: var(--azul-degrade);/*AULA 5*/
+    -webkit-background-clip: text;/*AULA 5*/
+    -webkit-text-fill-color: transparent;/*AULA 5*/
+    background-clip: text;/*AULA 5*/
+    text-transform: uppercase;/*AULA 5*/
   }
-  .container__botao {
-    display: none;
+  .container__botao {/*AULA 6*/
+    display: none;/*AULA 6*/
   }
