@@ -31,3 +31,8 @@
 .container__botao:checked~.lista-menu{/*O erro estava aqui*/
     display: block;
 }
+.lista-menu__titulo,
+.lista-menu__item {
+  padding: 1em;
+  background-color: var(--branco);
+}
